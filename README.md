@@ -18,3 +18,8 @@ For some **freelance contracts**, I use [Github projects](https://github.com/fea
 1. Find projects in a repo
 2. Identify all issue cards in the _Done_ column
 3. For each card, add a row to invoice_items.csv containing `name,hours`
+
+```
+NAME,HOURS
+Issue Name - [#1](github.com/link/to/issue/1),12
+```
