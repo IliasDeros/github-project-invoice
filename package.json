@@ -1,0 +1,19 @@
+{
+  "name": "github-project-invoice",
+  "version": "1.0.0",
+  "description": "For some **freelance contracts**, I use [Github projects](https://github.com/features/project-management/) to track progress and time estimates, which I use for billing.",
+  "engines": {
+    "node": "^10.17.0 || ^12.0.0 || >= 13.7.0"
+  },
+  "scripts": {
+    "start": "node generate-csv"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "graphql-request": "^3.1.0"
+  }
+}
