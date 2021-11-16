@@ -2,7 +2,7 @@
 
 For some **freelance contracts**, I use [Github projects](https://github.com/features/project-management/) to track progress and time estimates, which need to be manually processed for billing. This script helps generate the rows in **markdown** format for an invoice.
 
-![Issue](./issue-screenshot.png)
+![Issue](./public/issue-screenshot.png)
 
 ## Prerequisites
 - Node & `yarn`
