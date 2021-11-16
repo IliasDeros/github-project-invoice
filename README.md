@@ -23,3 +23,6 @@ For some **freelance contracts**, I use [Github projects](https://github.com/fea
 NAME,HOURS
 Issue Name - [#1](github.com/link/to/issue/1),12
 ```
+
+## Deployment
+For convenience, the script is deployed on vercel. See https://github-project-invoice.vercel.app/api

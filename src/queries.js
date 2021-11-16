@@ -1,7 +1,7 @@
 const { gql } = require('graphql-request')
 
 const queryProjectIssues = gql`
-  query getIssues($organization: String!, $repository: String!) {
+  query GetIssues($organization: String!, $repository: String!) {
     organization(login:$organization){
       repository(name:$repository) {
         projects(first:10,states:OPEN,orderBy:{field:CREATED_AT,direction:DESC}) {

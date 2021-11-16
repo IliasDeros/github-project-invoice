@@ -6,7 +6,7 @@
     "node": "^10.17.0 || ^12.0.0 || >= 13.7.0"
   },
   "scripts": {
-    "start": "node generate-csv"
+    "start": "node src/write-csv"
   },
   "main": "index.js",
   "author": "",
